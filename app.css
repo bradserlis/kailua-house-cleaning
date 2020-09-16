@@ -33,7 +33,7 @@ body {
   }
   
   h2 {
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
     text-align: center;
   }
   
@@ -79,7 +79,7 @@ body {
   
   .headline img {
     max-width: 80%;
-    margin: auto;
+    margin: 0 auto;
   }
   
   .landscape-logo {
