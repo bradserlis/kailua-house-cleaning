@@ -1,0 +1,145 @@
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+body { 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
+  
+  .App {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 { 
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  h2 {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .divider {
+    max-width: 75%;
+    border-bottom: 1px solid rgb(147 145 145);
+    margin: 0 auto;
+  }
+  
+  .emoji {
+    padding-right: 10px; 
+  }
+  
+  .services-block {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  .services-block ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .services-block li:not(:last-of-type) {
+    margin: 0 0 20px 0;
+  }
+  
+  .services-section li {
+    display: inline-block;
+  }
+  
+  .headline {
+    display: flex;
+    flex: 1;
+  }
+  
+  .headline img {
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  .landscape-logo {
+    display: none;
+  }
+  
+  .default-logo {
+    display: block;
+  }
+  
+  .email-span {
+    color: blue;
+  }
+  
+  .contact-container {
+    background: rgb(206 227 255);
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .contact-container h2 {
+    padding-top: 15px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @media screen and (min-width: 500px) {
+    .landscape-logo {
+      display: block;
+    }
+  
+    .default-logo {
+      display: none;
+    }
+  
+    h2:first-child {
+      margin: 5px 0; 
+    }
+  
+  }
+  
+  @media screen and (min-width: 768px) {
+    ul {
+      display: flex;
+    }  
+  }
+  
