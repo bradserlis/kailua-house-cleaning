@@ -65,6 +65,12 @@ body {
   .services-section li {
     display: inline-block;
   }
+
+  .services-frequency {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+  }
   
   .headline {
     display: flex;
@@ -132,9 +138,31 @@ body {
     }
   
     h2:first-child {
-      margin: 5px 0; 
+        margin: 5px 0; 
     }
-  
+
+    .contact-container h2 { 
+        margin-top: 0;
+    }
+
+    .services-block {
+        margin: auto;
+        max-width: 75%;
+    }
+
+    .services-block ul {
+        flex-wrap: wrap;
+        padding-left: 40px;
+        justify-content: space-evenly;
+    }
+
+    .services-frequency {
+        flex-direction: row;
+    }
+
+    li {
+        padding: 20px;
+    }
   }
   
   @media screen and (min-width: 768px) {
