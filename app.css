@@ -44,7 +44,11 @@ body {
   }
   
   .emoji {
-    padding-right: 10px; 
+    padding-right: 10px;
+  }
+
+  .emoji img {
+    width: 35px;
   }
   
   .services-block {
@@ -70,6 +74,7 @@ body {
     display: flex;
     margin-top: 20px;
     flex-direction: column;
+    white-space: nowrap;
   }
 
   .headline img {
@@ -109,6 +114,10 @@ body {
     background: rgb(30, 30, 30);
     color: white;
     text-align: center;
+  }
+
+  .footer-container p {
+    font-size: 20px;
   }
   
   .App-header {
@@ -157,24 +166,50 @@ body {
         max-width: 75%;
     }
 
-    .services-block ul {
-        flex-wrap: wrap;
-        padding-left: 40px;
-        justify-content: space-evenly;
-    }
-
-    .services-frequency {
-        flex-direction: row;
-    }
-
     li {
         padding: 20px;
     }
+
+    .footer-container p {
+      font-size: 25px;
+    }
   }
+
+  @media screen and (min-width: 550px) {
+
+}
+
+  @media screen and (min-width: 700px) {
+
+    .emoji img {
+      width: 50px;
+    }
+
+    .services-frequency {
+      flex-direction: row;
+  }
+}
   
   @media screen and (min-width: 768px) {
     ul {
       display: flex;
     }  
+
+    .services-block ul {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .services-block ul {
+      padding-left: 40px;
+    }
+  }
+
+  @media screen and (min-width: 1365px) {
+    .services-frequency {
+      margin: 0 20px;
+    }
   }
   
