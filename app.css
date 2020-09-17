@@ -8,6 +8,10 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
   }
+
+  .fade {
+    opacity: 1;
+  }
   
   .sr-only {
     position: absolute;
