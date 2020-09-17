@@ -47,6 +47,10 @@ body {
     padding-right: 10px;
   }
 
+  .emoji.biweekly {
+    padding-right: 9px;
+  }
+
   .emoji img {
     width: 35px;
   }
@@ -103,7 +107,7 @@ body {
     padding-top: 15px;
   }
 
-  .phone-number {
+  .line-break-span {
     white-space: nowrap;
   }
   
