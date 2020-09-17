@@ -71,17 +71,9 @@ body {
     margin-top: 20px;
     flex-direction: column;
   }
-  
-  .headline {
-    display: flex;
-    flex: 1;
-  }
-  
+
   .headline img {
-    max-width: 250px;
     width: 100%;
-    height: auto;
-    margin: auto;
   }
   
   .landscape-logo {
