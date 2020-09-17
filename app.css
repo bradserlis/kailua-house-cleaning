@@ -78,8 +78,10 @@ body {
   }
   
   .headline img {
-    max-width: 100%;
-    margin: 0 auto;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    margin: auto;
   }
   
   .landscape-logo {
@@ -141,7 +143,7 @@ body {
         margin: 5px 0; 
     }
 
-    .services-container .contact-container {
+    .services-container, .contact-container {
       padding: 20px 0;
     }
 
