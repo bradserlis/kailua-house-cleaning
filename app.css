@@ -78,7 +78,7 @@ body {
   }
   
   .headline img {
-    max-width: 80%;
+    max-width: 85%;
     margin: 0 auto;
   }
   
@@ -139,6 +139,10 @@ body {
   
     h2:first-child {
         margin: 5px 0; 
+    }
+
+    .services-container .contact-container {
+      padding: 20px 0;
     }
 
     .contact-container h2 { 
