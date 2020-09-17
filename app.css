@@ -79,6 +79,7 @@ body {
   
   .headline img {
     max-width: 50%;
+    max-width: auto;
     margin: 0 auto;
   }
   
