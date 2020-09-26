@@ -45,6 +45,7 @@ body {
   
   .emoji {
     padding-right: 10px;
+    display: block;
   }
 
   .emoji.biweekly {
@@ -170,7 +171,7 @@ body {
 
     .services-block {
         margin: auto;
-        max-width: 75%;
+        max-width: 900px;
     }
 
     li {
@@ -188,19 +189,18 @@ body {
 
   @media screen and (min-width: 700px) {
 
-    .emoji {
-      display: block;
-    }
-
     .emoji img {
       width: 50px;
     }
 
-/*    .services-block ul:first-child li {
-      width: 250px;
-    }*/
+    .services-block ul:first-child li {
+      width: 50%;
+      box-sizing: border-box;
+    }
 
     .services-block ul:first-child {
+      display: flex;
+      flex-wrap: wrap;
       justify-content: center;
     }
 
