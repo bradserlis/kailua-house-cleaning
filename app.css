@@ -56,8 +56,6 @@ body {
   }
   
   .services-block {
-    display: flex;
-    flex-direction: row;
     text-align: center;
   }
   
@@ -79,6 +77,7 @@ body {
     margin-top: 20px;
     flex-direction: column;
     white-space: nowrap;
+    justify-content: center;
   }
 
   .headline img {
@@ -122,6 +121,10 @@ body {
 
   .footer-container p {
     font-size: 20px;
+  }
+
+  .footer-container a {
+    color: #cee3ff;
   }
   
   .App-header {
@@ -185,12 +188,26 @@ body {
 
   @media screen and (min-width: 700px) {
 
+    .emoji {
+      display: block;
+    }
+
     .emoji img {
       width: 50px;
     }
 
+/*    .services-block ul:first-child li {
+      width: 250px;
+    }*/
+
+    .services-block ul:first-child {
+      justify-content: center;
+    }
+
+
     .services-frequency {
       flex-direction: row;
+      margin:0 auto;
   }
 }
   
@@ -199,7 +216,7 @@ body {
       display: flex;
     }  
 
-    .services-block ul {
+    .services-block ul:first-child {
       flex-wrap: wrap;
       justify-content: space-evenly;
     }
