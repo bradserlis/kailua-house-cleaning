@@ -53,7 +53,7 @@ body {
   }
 
   .emoji img {
-    width: 35px;
+    width: 50px;
   }
   
   .services-block {
@@ -190,7 +190,7 @@ body {
   @media screen and (min-width: 700px) {
 
     .emoji img {
-      width: 50px;
+      width: 75px;
     }
 
     .services-block ul:first-child li {
