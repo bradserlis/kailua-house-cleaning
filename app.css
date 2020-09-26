@@ -155,6 +155,7 @@ body {
     .headline img {
     width: 80%;
     margin: auto;
+    max-width: 1200px;
     }
 
     h2:first-child {
